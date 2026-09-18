@@ -21,3 +21,4 @@ public class Ex01_5 {
 
     }
 }
+double valor = teclado.nextDouble
