@@ -12,7 +12,8 @@ import java.util.Scanner;
   - calcule e imprima quantos ovos sobram
   - use a operação de divisão inteira (/) e resto da divisão (%)
 -------------------------------------------------------------------*/
-public class Ex01_4 {
+public class
+Ex01_4 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 
