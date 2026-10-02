@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /*-------------------------------------------------------------------
   Ex 1.6: Consumo do carro
   - informar uma quantidade inteira de quilômetros
@@ -23,6 +25,17 @@
 -------------------------------------------------------------------*/
 public class Ex01_6 {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Digite os quilômetros: ");
+        int quilometros = scanner.nextInt();
+
+        System.out.print("Digite a quantidade de litros: ");
+        int litros = scanner.nextInt();
+
+        double consumo = (double) quilometros / litros;
+
+        System.out.printf("O consumo do carro é: %.2f km/l\n", consumo);
 
     }
 }
