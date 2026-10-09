@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /*-------------------------------------------------------------------
     Ex 2.1: Subtotal e raspadinhas
     - informar o valor da compra
@@ -16,5 +18,14 @@
 -------------------------------------------------------------------*/
 public class Ex02_1 {
         public static void main(String[] args) {
+                Scanner scanner = new Scanner(System.in);
+
+                System.out.print("Digite o valor da compra: ");
+                double valor = scanner.nextDouble();
+
+                if (valor > 100) {
+                        long raspadinhas = Math.round(valor / 100.0);
+                        System.out.printf("Quantidade de raspadinhas recebidas: %d\n", raspadinhas);
+                }
         }
 }
